@@ -100,7 +100,7 @@ const visiblePages = computed(() => {
             <ul class="space-y-4">
                 <li v-for="item in paginatedData" :key="item.uid" class="p-4 bg-white rounded-lg shadow-md flex justify-between items-center">
                     <div>
-                        <h2 class="text-lg font-bold">{{ item.title }} <span class="text-sm text-gray-500 ml-2">by {{ item.artist }}</span></h2>
+                        <h2 class="text-lg font-bold text-black-400">{{ item.title }} <span class="text-sm text-gray-500 ml-2">by {{ item.artist }}</span></h2>
                         <p class="text-gray-600">카테고리: {{ item.subcategory }}</p>
                     </div>
                     <p class="text-xl text-gray-700">{{ item.people }}명</p>

@@ -1,8 +1,8 @@
 // localhost
-const URL = 'http://localhost:3010/'
+// const URL = 'http://localhost:3010/'
 
 //prod
-// const URL = 'https://api.loavesting.com/'
+const URL = 'https://api.loavesting.com/'
 
 const searchMusic = async (char, category) => {
     try {

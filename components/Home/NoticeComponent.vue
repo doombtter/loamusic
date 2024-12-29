@@ -3,7 +3,7 @@
     <div class="bg-white-100 p-4 rounded-lg shadow-md mb-4">
       <ul class="mt-2 space-y-2">
         <li v-for="notice in notices" :key="notice.id" class="bg-white p-2 rounded-lg shadow">
-          <h3 class="text-md font-semibold text-black-400">{{ notice.title }}</h3>
+          <h3 class="text-md font-semibold text-gray-600">{{ notice.title }}</h3>
           <p class="text-sm text-gray-700">{{ notice.content }}</p>
           <!-- <p class="text-xs text-gray-500 text-right">{{ notice.date }}</p> -->
         </li>

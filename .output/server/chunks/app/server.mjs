@@ -687,7 +687,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-jWpHalmd.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-B_w9AGHW.mjs').then((m) => m.default || m)
   },
   {
     name: "search-slug",
@@ -695,7 +695,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/_...slug_-DfhPuozV.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_...slug_-BtxJ0TDs.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -830,7 +830,7 @@ const cfg0 = defineAppConfig({
 });
 const inlineConfig = {
   "nuxt": {
-    "buildId": "cf3187b5-9d95-43ca-a36b-f00f6309d2e7"
+    "buildId": "f9eeb663-956a-45da-bfa3-270a0bd60cd1"
   },
   "ui": {
     "primary": "green",
